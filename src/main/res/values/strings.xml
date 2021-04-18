@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Projects</string>
+
+    <string-array name="city">
+        <item>Ahmedabad</item>
+        <item>Pune</item>
+        <item>Mumbai</item>
+    </string-array>
+
+    <string-array name="img">
+        <item>Alpha</item>
+        <item>Scale</item>
+        <item>Rotate</item>
+        <item>Translate</item>
+    </string-array>
+
+</resources>

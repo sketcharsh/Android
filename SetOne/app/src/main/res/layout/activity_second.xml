@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/fn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Firstname"/>
+
+    <TextView
+        android:id="@+id/ln"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Lastname"
+        android:layout_below="@+id/fn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/label1"
+        android:text="Sem 1"
+        android:layout_below="@+id/ln"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cr1"
+        android:layout_below="@+id/label1"
+        android:hint="Credit"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gr1"
+        android:hint="Grades"
+        android:layout_below="@id/cr1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sgpa1"
+        android:layout_below="@+id/gr1"
+        android:text="SGPA"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/label2"
+        android:text="Sem 2"
+        android:layout_below="@+id/sgpa1"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cr2"
+        android:layout_below="@+id/label2"
+        android:hint="Credit"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gr2"
+        android:hint="Grades"
+        android:layout_below="@id/cr2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sgpa2"
+        android:layout_below="@+id/gr2"
+        android:text="SGPA"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cgpa"
+        android:layout_below="@+id/sgpa2"
+        android:text="CGPA"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/percent"
+        android:layout_below="@+id/cgpa"
+        android:text="Percentage"
+        android:textSize="25dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:layout_below="@id/percent"
+        android:text="Result"/>
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Display"
+    android:gravity="center">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/fn"
+    android:text="Firstname"
+    android:textSize="24dp"
+    />
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ln"
+    android:textSize="24dp"
+        android:layout_below="@+id/fn"
+        android:text="Lastname"
+        />
+ <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hobby"
+        android:layout_below="@+id/ln"
+        android:text="Hobby"
+        android:textSize="24dp"
+        />
+ <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gender"
+        android:layout_below="@+id/hobby"
+        android:text="Gender"
+        android:textSize="24dp"
+     />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/city"
+    android:textSize="24dp"
+    android:layout_below="@+id/gender"
+    android:text="City"
+    />
+
+
+</RelativeLayout>

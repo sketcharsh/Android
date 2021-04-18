@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/sgpa"
+        android:title="SGPA">
+    </item>
+
+    <item android:id="@+id/cgpa"
+        android:title="CGPA">
+    </item>
+
+    <item android:id="@+id/per"
+        android:title="Percentage">
+    </item>
+
+
+</menu>

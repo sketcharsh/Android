@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DBFinal</string>
+    <string-array name="country">
+        <item>INDIA</item>
+        <item>CANADA</item>
+        <item>USA</item>
+    </string-array>
+</resources>

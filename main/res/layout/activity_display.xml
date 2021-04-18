@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADCEC26A"
+    tools:context=".DisplayActivity"
+    android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:id="@+id/displayTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Display Form"
+        android:textColor="#090808"
+        android:textSize="40dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/displayTV"
+        android:text="First Name: "
+        android:textSize="20dp"
+        android:textColor="#090808"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/lbFN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@id/txt1"
+        android:layout_below="@id/displayTV"
+        android:text="Null"
+        android:textSize="20dp"
+        android:textColor="#090808"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txt1"
+        android:text="Last Name: "
+        android:textSize="20dp"
+        android:textColor="#090808"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/lbLN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/txt2"
+        android:layout_below="@id/txt1"
+        android:text="Null"
+        android:textSize="20dp"
+        android:textColor="#090808"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txt2"
+        android:text="Gender: "
+        android:textSize="20dp"
+        android:textColor="#090808"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/lbGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/txt2"
+        android:layout_below="@id/txt2"
+        android:text="Null"
+        android:textSize="20dp"
+        android:textColor="#090808"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txt3"
+        android:text="City: "
+        android:textSize="20dp"
+        android:textColor="#090808"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/lbCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/txt2"
+        android:layout_below="@id/txt3"
+        android:text="Null"
+        android:textSize="20dp"
+        android:textColor="#090808"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txt4"
+        android:text="Hobby: "
+        android:textSize="20dp"
+        android:textColor="#090808"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/lbHobby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/txt2"
+        android:layout_below="@id/txt4"
+        android:text="Null"
+        android:textSize="20dp"
+        android:textColor="#090808"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>

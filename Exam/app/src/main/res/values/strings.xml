@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Exam</string>
+    <string-array name="city">
+        <item>Ahmedabad</item>
+        <item>Mumbai</item>
+        <item>Goa</item>
+    </string-array>
+    <string-array name="image">
+        <item>Alpha</item>
+        <item>Rotate</item>
+        <item>Scale</item>
+        <item>Translate</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TheEnd</string>
+    <string-array name="City">
+        <item>Ahmedabad</item>
+        <item>Baroda</item>
+        <item>Rajkot</item>
+    </string-array>
+</resources>

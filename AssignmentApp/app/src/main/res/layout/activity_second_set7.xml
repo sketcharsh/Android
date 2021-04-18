@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#852EB3C9"
+    tools:context=".SecondSet7">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:text="display"
+        android:textSize="35dp"
+        android:ems="10"
+        />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/result"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:hint="enter num1"
+        android:textSize="20dp"
+        android:ems="10"
+        />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/num1"
+        android:textAlignment="center"
+        android:hint="enter num2"
+        android:textSize="20dp"
+        android:ems="10"
+        />
+
+    <EditText
+        android:id="@+id/num3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/num2"
+        android:textAlignment="center"
+        android:hint="enter num3"
+        android:textSize="20dp"
+        android:ems="10"
+        />
+
+    <EditText
+        android:id="@+id/num4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/num3"
+        android:textAlignment="center"
+        android:hint="enter num4"
+        android:textSize="20dp"
+        android:ems="10"
+        />
+
+    <Button
+        android:id="@+id/max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/num4"
+        android:text="Max"
+        android:textSize="15dp"
+        />
+
+    <Button
+        android:id="@+id/min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/max"
+        android:text="Min"
+        android:textSize="15dp"
+        />
+
+    <Button
+        android:id="@+id/sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/min"
+        android:text="Sort"
+        android:textSize="15dp"
+        />
+
+    <Button
+        android:id="@+id/sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/sort"
+        android:text="Sum"
+        android:textSize="15dp"
+        />
+
+</RelativeLayout>
